@@ -10,3 +10,6 @@
 [submodule "gflags"]
 	path = gflags
 	url = https://github.com/gflags/gflags.git
+[submodule "kvstore_0voice"]
+	path = kvstore_0voice
+	url = https://github.com/Wangjinxi0518/kv-store_0voice.git

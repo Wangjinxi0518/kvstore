@@ -1,5 +1,7 @@
 #ifndef __SBUF_H__
 #define __SBUF_H__
+#include <semaphore.h>
+
 typedef struct {
   int *buf;
   int n;

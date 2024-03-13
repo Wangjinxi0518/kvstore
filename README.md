@@ -1,5 +1,13 @@
 # KV-Store
 
+# ubuntu 安装
+
+```bash
+sudo apt-get update
+sudo apt-get install libgoogle-glog-dev libleveldb-dev libboost-system-dev libboost-filesystem-dev 
+```
+
+
 ## KV 存储服务 项目简介
 
 KV-Store 是⼀个底层使⽤ LevelDB 作为存储引擎，上层基于 Epoll 进⾏封装的⾼性能服务器，⽬前⾃⼰实现了如下

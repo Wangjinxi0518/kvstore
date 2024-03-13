@@ -9,4 +9,4 @@ static const std::string DB_PATH = "./db";
 static const std::string PASSWORD = "BuildTree";
 static const std::string LOG_PATH = "./log";
 static const char* DB_Delete_Sentence = "rm -rf /root/Git/KV-Server/db";
-#endif // --CONF_H_
+#endif    // --CONF_H_

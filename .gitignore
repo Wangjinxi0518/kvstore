@@ -7,3 +7,5 @@ test/*
 server
 client
 .github/
+.vscode/
+instruction.md

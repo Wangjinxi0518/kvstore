@@ -1,13 +1,15 @@
-#include "../include/kv_io.h"
-#include "../include/kv_encode.h"
-#include "../include/kv_leveldb.h"
 #include "../include/csapp.h"
-#include <string>
+#include "../include/kv_encode.h"
+#include "../include/kv_io.h"
+#include "kv_leveldb.h"
 #include <iostream>
+#include <string>
 
 int echo(char* buf) {
-  IO_server a;
-  EncodeFix b;
+  IO a;
+  // IO_server a;
+  // EncodeFix b;
+  Encode b;
   LevelDB c;
   size_t n;
   bool flag;
