@@ -1,7 +1,7 @@
-#include "../include/kv_leveldb.h"
-#include <leveldb/db.h>
-#include <string>
+#include "kv_leveldb.h"
 #include <iostream>
+#include <string>
+#include <leveldb/db.h>
 
 leveldb::DB *db;
 leveldb::Status status;
